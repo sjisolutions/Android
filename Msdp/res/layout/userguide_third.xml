@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/nav" >
+
+        <TextView
+            android:id="@+id/goalhistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Goal Setting Details" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/goalview"
+        android:layout_width="fill_parent"
+        android:layout_height="641dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2525dp"
+            android:background="@drawable/user" >
+
+            <TextView
+                android:id="@+id/txtmain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmain"
+                android:layout_centerHorizontal="true"
+                android:text="before setting a goal :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtthree1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtthree"
+                android:layout_below="@+id/txtthree"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtthree1"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtthree1"
+                android:layout_marginRight="51dp"
+                android:text="Can I put aside some old beliefs which no longer serve my goal?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtfour1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtfour"
+                android:layout_below="@+id/txtfour"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtfour1"
+                android:layout_below="@+id/txtfour1"
+                android:layout_marginRight="40dp"
+                android:text="Can I try on some new beliefs that will help me achieve my goals?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtfive1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtfive"
+                android:layout_below="@+id/txtfive"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtsix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtfive1"
+                android:layout_below="@+id/txtfive1"
+                android:text="Can I step outside my comfort zone?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtsix1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtsix"
+                android:layout_below="@+id/txtsix"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtsix1"
+                android:layout_below="@+id/txtsix1"
+                android:text="Do I have the courage to do this?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtseven1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtseven"
+                android:layout_below="@+id/txtseven"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txteight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtseven1"
+                android:layout_below="@+id/txtseven1"
+                android:layout_marginRight="30dp"
+                android:text="What is achieving this goal worth to me?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txteight1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txteight"
+                android:layout_below="@+id/txteight"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtnine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txteight1"
+                android:layout_below="@+id/txteight1"
+                android:layout_marginRight="30dp"
+                android:text="How will failure to take action - impact my life?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtnine1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtnine"
+                android:layout_below="@+id/txtnine"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txttwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtone1"
+                android:layout_below="@+id/txtone1"
+                android:text="Why do I want this?"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txttwo"
+                android:layout_below="@+id/txttwo1"
+                android:text="How committed am I?"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txttwo1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/txtthree"
+                android:layout_below="@+id/txttwo"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtnine1"
+                android:layout_marginLeft="30dp"
+                android:padding="20dp"
+                android:text="Date:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtdate1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/txtdate"
+                android:layout_below="@+id/txtnine1"
+                android:layout_toRightOf="@+id/txtdate"
+                android:background="@drawable/blankspace"
+                android:ems="8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtdate"
+                android:layout_marginLeft="30dp"
+                android:padding="5dp"
+                android:text="Day:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtday1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/txtday"
+                android:layout_below="@+id/txtdate1"
+                android:layout_toRightOf="@+id/txtday"
+                android:background="@drawable/blankspace"
+                android:ems="8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtday"
+                android:layout_marginLeft="30dp"
+                android:text="My financial goal for the month is:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtten1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtten"
+                android:layout_below="@+id/txtten"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txteleven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtten1"
+                android:layout_marginLeft="30dp"
+                android:text="I will achieve this financial goal by:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txteleven1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txteleven"
+                android:layout_below="@+id/txteleven"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txttwelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txteleven1"
+                android:layout_marginLeft="30dp"
+                android:text="This goal is important because:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txttwelve1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txttwelve"
+                android:layout_below="@+id/txttwelve"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtthirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txttwelve1"
+                android:layout_marginLeft="30dp"
+                android:text="I will take the following steps to pursue my goal:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtthirteen1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtthirteen"
+                android:layout_below="@+id/txtthirteen"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtfourteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtthirteen1"
+                android:layout_marginLeft="30dp"
+                android:text="To reach my goal I will have to take the following steps:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtfourteen1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtfourteen"
+                android:layout_below="@+id/txtfourteen"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtfifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtfourteen1"
+                android:layout_marginLeft="30dp"
+                android:text="I will know that I have reached my goal when:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtfifteen1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtfifteen"
+                android:layout_below="@+id/txtfifteen"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtsixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtfifteen1"
+                android:layout_marginLeft="30dp"
+                android:text="2 things that will help me to achieve my goal is:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtsixteen1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtsixteen"
+                android:layout_below="@+id/txtsixteen"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtseventeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtsixteen1"
+                android:layout_marginLeft="30dp"
+                android:text="My reward for accomplishing this goal will be:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtseventeen1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtseventeen"
+                android:layout_below="@+id/txtseventeen"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtone1"
+                android:layout_below="@+id/txtmain1"
+                android:text="1.How badly do I want this?"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtone"
+                android:layout_marginLeft="10dp"
+                android:text="1."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txttwo"
+                android:layout_marginLeft="10dp"
+                android:text="2."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtthree"
+                android:layout_marginLeft="10dp"
+                android:text="3."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfour"
+                android:layout_marginLeft="10dp"
+                android:text="4."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfive"
+                android:layout_marginLeft="10dp"
+                android:text="5."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtsix"
+                android:layout_marginLeft="10dp"
+                android:text="6."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtseven"
+                android:layout_marginLeft="10dp"
+                android:text="7."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txteight"
+                android:layout_marginLeft="10dp"
+                android:text="8."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtnine"
+                android:layout_marginLeft="10dp"
+                android:text="9."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtten"
+                android:layout_marginLeft="10dp"
+                android:text="1."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txteleven"
+                android:layout_marginLeft="10dp"
+                android:text="2."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txttwelve"
+                android:layout_marginLeft="10dp"
+                android:text="3."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtthirteen"
+                android:layout_marginLeft="10dp"
+                android:text="4."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfourteen"
+                android:layout_marginLeft="10dp"
+                android:text="5."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfifteen"
+                android:layout_marginLeft="10dp"
+                android:text="6."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtsixteen"
+                android:layout_marginLeft="10dp"
+                android:text="7."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtseventeen"
+                android:layout_marginLeft="10dp"
+                android:text="8."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtmain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtdate"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="21dp"
+                android:text="Questions to ponder"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/txtone1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtone"
+                android:layout_toRightOf="@+id/txt2"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

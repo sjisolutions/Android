@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/nav" >
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="User Guide" 
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/user" >
+
+        <Button
+            android:id="@+id/btngoalsetting"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/goal" />
+
+        <Button
+            android:id="@+id/btnprogresschart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btngoalsetting"
+            android:layout_alignBottom="@+id/btngoalsetting"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/progress" />
+
+        <Button
+            android:id="@+id/btngoalsettinghistory"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btngoalsetting"
+            android:layout_marginTop="146dp"
+            android:background="@drawable/goal1" />
+
+        <Button
+            android:id="@+id/btnquickstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnprogresscharthistory"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/quick" />
+
+        <Button
+            android:id="@+id/btnprogresscharthistory"            
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btngoalsettinghistory"
+            android:layout_alignBottom="@+id/btngoalsettinghistory"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/progress1" />
+    </RelativeLayout>
+
+</RelativeLayout>

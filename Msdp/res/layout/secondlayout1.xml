@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/goalview"
+        android:layout_width="fill_parent"
+        android:layout_height="600dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/goalbg" />
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="45dp"
+                android:padding="20dp"
+                android:text="Date:"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtdate"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/txtdate"
+                android:layout_toRightOf="@+id/txtdate"
+                android:background="@drawable/blankspace"
+                android:ems="8"
+                android:hint="dd/mm/yyyy"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <EditText
+                android:id="@+id/edtone"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtone"
+                android:layout_below="@+id/txtone"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txttwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtone"
+                android:layout_below="@+id/edtone"
+                android:text="I Will accomplish the following today"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edttwo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txttwo"
+                android:layout_below="@+id/txttwo"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtthree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edttwo"
+                android:layout_below="@+id/edttwo"
+                android:text="Today Iam greateful for "
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtthree"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtthree"
+                android:layout_below="@+id/txtthree"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtthree"
+                android:layout_below="@+id/edtthree"
+                android:text="My Meditation today was"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtfour"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtfour"
+                android:layout_below="@+id/txtfour"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtfour"
+                android:layout_below="@+id/edtfour"
+                android:text="Brainwave entrainments I used today are"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtfive"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtfive"
+                android:layout_below="@+id/txtfive"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtsix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtfive"
+                android:layout_below="@+id/edtfive"
+                android:text="Today I feel "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtsix"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtsix"
+                android:layout_below="@+id/txtsix"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtsix"
+                android:layout_below="@+id/edtsix"
+                android:text="I choose to be happy today because"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtseven"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtseven"
+                android:layout_below="@+id/txtseven"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txteight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtseven"
+                android:layout_below="@+id/edtseven"
+                android:text="I watched _affirmation videos today :They are"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edteight"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txteight"
+                android:layout_below="@+id/txteight"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtnine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edteight"
+                android:layout_below="@+id/edteight"
+                android:text="I spent _hrs reading and broadening my mind today"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtnine"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/txtnine"
+                android:layout_below="@+id/txtnine"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtnine"
+                android:layout_below="@+id/edtnine"
+                android:text="MONTLY OVERVIEW"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtten"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/txtten"
+                android:layout_below="@+id/txtten"
+                android:background="@drawable/blankspace"
+                android:ems="10"
+                android:gravity="top|left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" />
+
+            <Button
+                android:id="@+id/btnsave"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/edtten"
+                android:layout_below="@+id/edtten"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/save"
+                android:text="Save" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtone"
+                android:layout_marginLeft="10dp"
+                android:text="1."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txttwo"
+                android:layout_marginLeft="10dp"
+                android:text="2."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtthree"
+                android:layout_marginLeft="10dp"
+                android:text="3."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfour"
+                android:layout_marginLeft="10dp"
+                android:text="4."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtfive"
+                android:layout_marginLeft="10dp"
+                android:text="5."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtsix"
+                android:layout_marginLeft="10dp"
+                android:text="6."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtseven"
+                android:layout_marginLeft="10dp"
+                android:text="7."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txteight"
+                android:layout_marginLeft="10dp"
+                android:text="8."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtnine"
+                android:layout_marginLeft="10dp"
+                android:text="9."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtdate"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/txt1"
+                android:text="My Goals For Today"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

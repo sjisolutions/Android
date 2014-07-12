@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nav" >
+
+        <TextView
+            android:id="@+id/special"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Special Reports" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60dp" >
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" >
+
+            <ImageView
+                android:id="@+id/self"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="46dp"
+                android:src="@drawable/selfdevelopment" />
+
+            <ImageView
+                android:id="@+id/entrep"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:src="@drawable/entrepreneur" />
+
+            <ImageView
+                android:id="@+id/brainwave"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/rich"
+                android:layout_below="@+id/rich"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/brainwaveentertainment" />
+
+            <ImageView
+                android:id="@+id/affirm"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/financial"
+                android:layout_alignTop="@+id/brainwave"
+                android:src="@drawable/affirmations" />
+
+            <ImageView
+                android:id="@+id/financial"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/self"
+                android:layout_alignTop="@+id/rich"
+                android:src="@drawable/financialiq" />
+
+            <TextView
+                android:id="@+id/entrep_reneur"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/financial"
+                android:layout_alignLeft="@+id/entrep"
+                android:layout_below="@+id/entrep"
+                android:text="The E-Entrepreneur Success Mindset" />
+
+            <TextView
+                android:id="@+id/self_develop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/self"
+                android:layout_below="@+id/self"
+                android:text="Self Development Report" />
+
+            <TextView
+                android:id="@+id/develop_financial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/rich_secrets"
+                android:layout_alignBottom="@+id/rich_secrets"
+                android:layout_alignLeft="@+id/financial"
+                android:text="Develop Your Financial IQ" />
+
+            <TextView
+                android:id="@+id/brain_wave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/brainwave"
+                android:layout_alignRight="@+id/rich_secrets"
+                android:layout_below="@+id/brainwave"
+                android:text="Brainwave Entertainment Report" />
+
+            <TextView
+                android:id="@+id/affirm_ations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/affirm"
+                android:layout_below="@+id/affirm"
+                android:text="Affirmations" />
+
+            <ImageView
+                android:id="@+id/rich"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/entrep_reneur"
+                android:layout_below="@+id/self_develop"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/secrets" />
+
+            <TextView
+                android:id="@+id/rich_secrets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rich"
+                android:layout_below="@+id/rich"
+                android:text="Rich Secrets" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

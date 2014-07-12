@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nav" >
+
+        <TextView
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Books" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="55dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="833dp" >
+
+            <ImageView
+                android:id="@+id/man"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/manthinketh" />
+
+            <ImageView
+                android:id="@+id/acres"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/man"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/acres" />
+
+            <TextView
+                android:id="@+id/acres_diamonds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/manthinketh"
+                android:layout_alignBottom="@+id/manthinketh"
+                android:layout_alignParentRight="true"
+                android:text="Acres of Diamonds" />
+
+            <TextView
+                android:id="@+id/manthinketh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/man"
+                android:layout_marginLeft="20dp"
+                android:text="As A ManThinketh" />
+
+            <ImageView
+                android:id="@+id/howtouseyourmind"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/man"
+                android:layout_below="@+id/manthinketh"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/howtouseyourmind" />
+
+            <TextView
+                android:id="@+id/howtouse_yourmind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/howtouseyourmind"
+                android:text="How To Use Your Mind" />
+
+            <ImageView
+                android:id="@+id/joyandpower"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_above="@+id/howtouse_yourmind"
+                android:layout_alignLeft="@+id/acres"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/joyandpower" />
+
+            <TextView
+                android:id="@+id/joy_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/howtouse_yourmind"
+                android:layout_alignBottom="@+id/howtouse_yourmind"
+                android:layout_alignLeft="@+id/joyandpower"
+                android:text="Joy and Power" />
+
+            <ImageView
+                android:id="@+id/personalmagnetism"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/howtouseyourmind"
+                android:layout_below="@+id/howtouse_yourmind"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/personalmagnetism" />
+
+            <TextView
+                android:id="@+id/personal_magnetism"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/manthinketh"
+                android:layout_alignRight="@+id/howtouse_yourmind"
+                android:layout_below="@+id/personalmagnetism"
+                android:text="The Art and Science of Personal Magnetism" />
+
+            <ImageView
+                android:id="@+id/masterkey"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/joy_power"
+                android:layout_alignTop="@+id/personalmagnetism"
+                android:src="@drawable/masterkey" />
+
+            <TextView
+                android:id="@+id/master_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/personal_magnetism"
+                android:layout_alignBottom="@+id/personal_magnetism"
+                android:layout_alignLeft="@+id/masterkey"
+                android:text="The Master Key System" />
+
+            <ImageView
+                android:id="@+id/pathtoprosperity"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/howtouseyourmind"
+                android:layout_below="@+id/personal_magnetism"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/pathtoprosperity" />
+
+            <TextView
+                android:id="@+id/pathto_prosperity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/manthinketh"
+                android:layout_alignRight="@+id/personal_magnetism"
+                android:layout_below="@+id/pathtoprosperity"
+                android:text="The Path to Prosperity" />
+
+            <ImageView
+                android:id="@+id/concentration"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/master_key"
+                android:layout_alignTop="@+id/pathtoprosperity"
+                android:src="@drawable/concentration" />
+
+            <TextView
+                android:id="@+id/power_concentration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pathto_prosperity"
+                android:layout_alignBottom="@+id/pathto_prosperity"
+                android:layout_alignLeft="@+id/concentration"
+                android:text="The Power of Concentration" />
+
+            <ImageView
+                android:id="@+id/thinkandgrowrich"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/howtouseyourmind"
+                android:layout_below="@+id/pathto_prosperity"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/thinkandgrowrich" />
+
+            <TextView
+                android:id="@+id/thinkand_growrich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/manthinketh"
+                android:layout_alignRight="@+id/pathto_prosperity"
+                android:layout_below="@+id/thinkandgrowrich"
+                android:text="Think and Grow Rich" />
+
+            <ImageView
+                android:id="@+id/withinyouthepower"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/power_concentration"
+                android:layout_alignTop="@+id/thinkandgrowrich"
+                android:src="@drawable/withinyouthepower" />
+
+            <TextView
+                android:id="@+id/withinyou_thepower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/thinkand_growrich"
+                android:layout_alignBottom="@+id/thinkand_growrich"
+                android:layout_alignLeft="@+id/withinyouthepower"
+                android:text="Within You the Power" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
